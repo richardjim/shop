@@ -1,0 +1,187 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+input.navbar-input {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  width: 25%;
+  height: 25%;
+}
+input.navbar-input1 {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  width: 8%;
+  margin-left: 2rem;
+  height: 25%;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 12rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
+.navbar li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 7rem;
+}
+.navbar a {
+  text-decoration: none;
+  list-style: none;
+  color: grey;
+  font-size: 16px;
+}
+
+.holder {
+  display: flex;
+  align-items: center;
+}
+.user {
+  border-radius: 8px;
+  padding-left: 1rem;
+  height: 30px;
+  background-position: center;
+}
+
+.mainA ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.mainA li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 13px;
+}
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-right: 12rem;
+  justify-content: space-between;
+  width: 75%;
+}
+#main-p h1 {
+  width: 70%;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -0.5px;
+}
+#main-p p {
+  font-size: 12px;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+  margin-top: -2em;
+}
+.two h1 {
+  background-color: #e8f8f7;
+  margin-top: 1em;
+  border-radius: 3px;
+}
+.twoB h2 {
+  color: #0a9265;
+  font-size: 15px;
+}
+.twoB p {
+  color: #808080;
+  font-size: 15px;
+  margin-top: -0.7rem;
+}
+.twoB {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 1em;
+}
+
+.two-2 p {
+  color: gray;
+  font-size: 15px;
+}
+.two-2 {
+  width: 60%;
+  margin-top: -1.5em;
+}
+.btn {
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #0000ffa9;
+  padding: 18px 38px;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+}
+.side-dw {
+  border: 2px transparent gray;
+  position: relative;
+  left: 40%;
+  margin-top: -10rem;
+  background-color: rgba(240, 255, 240, 0.459);
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 40%;
+  box-shadow: 0px 0px 15px 15px rgb(199, 185, 236);
+  padding: 14px 15px;
+}
+
+.side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+
+.side-content h2 {
+  font-size: 17px;
+  color: black;
+  margin-left: 2rem;
+  margin-top: -0.8rem;
+}
+.side-content p {
+  color: gray;
+  width: 80%;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 2rem;
+  margin-top: -15px;
+}
+
+.side-img {
+  margin-left: 2rem;
+}
+.side-dw h4 {
+  margin-right: 15rem;
+}
